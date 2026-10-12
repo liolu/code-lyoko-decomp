@@ -1,0 +1,26 @@
+[INFO ] Loading ROM from extract/usa/config.yaml
+[INFO ] Function at 0x020102a0 was adjusted to include pre-code constant pool at 0x0201028c
+[WARN ] Local function call from 0x02021490 in ARM9 main to 0x0202cc98 goes to middle of function 'func_0202cc8c' at 0x0202cc8c, adding an external label symbol
+[WARN ] Local function call from 0x02028290 in ARM9 main to 0x0202cc98 goes to middle of function 'func_0202cc8c' at 0x0202cc8c, adding an external label symbol
+[WARN ] Local function call from 0x0202bf28 in ARM9 main to 0x0202bebc goes to middle of function 'func_0202bea8' at 0x0202bea8, adding an external label symbol
+[WARN ] Local function call from 0x0202c0d0 in ARM9 main to 0x0202c050 goes to middle of function 'func_0202c03c' at 0x0202c03c, adding an external label symbol
+[WARN ] Local function call from 0x0202c278 in ARM9 main to 0x0202c1f8 goes to middle of function 'func_0202c1e4' at 0x0202c1e4, adding an external label symbol
+[WARN ] Local function call from 0x0202ccbc in ARM9 main to 0x0202d0c8 goes to middle of function 'func_0202d0c0' at 0x0202d0c0, adding an external label symbol
+[WARN ] Local function call from 0x0209ce10 in ARM9 main to 0x0202cc98 goes to middle of function 'func_0202cc8c' at 0x0202cc8c, adding an external label symbol
+[WARN ] Local function call from 0x020dc614 in ARM9 main to 0x020dd034 goes to middle of function 'func_020dc560' at 0x020dc560, adding an external label symbol
+[WARN ] Local function call from 0x020dc63a in ARM9 main to 0x020dd034 goes to middle of function 'func_020dc560' at 0x020dc560, adding an external label symbol
+[WARN ] Local function call from 0x020dc652 in ARM9 main to 0x020dd034 goes to middle of function 'func_020dc560' at 0x020dc560, adding an external label symbol
+[WARN ] Local function call from 0x020dc660 in ARM9 main to 0x020dd034 goes to middle of function 'func_020dc560' at 0x020dc560, adding an external label symbol
+[WARN ] Local function call from 0x020dc690 in ARM9 main to 0x020dd034 goes to middle of function 'func_020dc560' at 0x020dc560, adding an external label symbol
+[WARN ] Local function call from 0x020dc7e8 in ARM9 main to 0x020dd034 goes to middle of function 'func_020dc560' at 0x020dc560, adding an external label symbol
+[WARN ] Local function call from 0x02118638 in overlay 0 to 0x021191a2 goes to middle of function 'func_ov000_02118530' at 0x02118530, adding an external label symbol
+[WARN ] Local function call from 0x021592a0 in overlay 14 to 0x02159f94 goes to middle of function 'func_ov014_02159204' at 0x02159204, adding an external label symbol
+[WARN ] Local function call from 0x01ff84f8 in ITCM to 0x01ff84ac goes to middle of function 'func_01ff847c' at 0x01ff847c, adding an external label symbol
+[WARN ] Local function call from 0x01ff9a10 in ITCM to 0x01ffd490 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ff9a58 in ITCM to 0x01ffd490 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ff9e44 in ITCM to 0x01ffd490 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ff9e8c in ITCM to 0x01ffd490 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffae30 in ITCM to 0x01ffd490 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffae68 in ITCM to 0x01ffd490 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffb2e8 in ITCM to 0x01ffd490 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffb320 in ITCM to 0x01ffd490 leads to a label, updating the label to be external
