@@ -6,8 +6,8 @@ extern M2C_UNK data_020ef0cc;
 extern s32 data_020fe428;
 
 M2C_UNK **func_0207e3b8(M2C_UNK **arg0) {
-    *arg0 = &data_020eeffc;
-    *arg0 = &data_020ef0cc;
+    *arg0         = &data_020eeffc;
+    *arg0         = &data_020ef0cc;
     data_020fe428 = 0;
     func_0208f8c8(arg0);
     return arg0;

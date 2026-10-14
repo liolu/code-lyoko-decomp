@@ -34,7 +34,7 @@ void func_0201a2f8(void *arg0, void *arg1, s32 arg2) {
     M2C_FIELD(arg0, u8 *, 0x236) = (u8) M2C_FIELD(arg1, u8 *, 0x18);
     func_0200bb94(M2C_FIELD(arg1, s32 *, 4), arg0 + 0x238, (u16) (func_0201a198(M2C_FIELD(arg1, s32 *, 4)) * 2));
     func_0200bb94(M2C_FIELD(arg1, s32 *, 8), arg0 + 0x298, 0xC0U);
-    M2C_FIELD(arg0, s8 *, 0x358) = 1;
+    M2C_FIELD(arg0, s8 *, 0x358)  = 1;
     M2C_FIELD(arg0, s16 *, 0x35A) = 1;
     M2C_FIELD(arg0, s16 *, 0x4B0) = 1;
 }

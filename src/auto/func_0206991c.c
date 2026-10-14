@@ -13,9 +13,9 @@ void *func_0206991c(void *arg0, void *arg1) {
     var_ip = NULL;
     var_r3 = NULL;
     if (var_r2 != NULL) {
-loop_3:
+    loop_3:
         if (var_r2 == arg1) {
-            var_r3 = (void *)1;
+            var_r3 = (void *) 1;
             if (var_ip != NULL) {
                 M2C_FIELD(var_ip, void **, 8) = (void *) M2C_FIELD(arg1, void **, 8);
             } else {

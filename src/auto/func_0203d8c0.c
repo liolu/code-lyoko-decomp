@@ -12,7 +12,7 @@ void func_0203d8c0(void *arg0) {
         return;
     }
     func_0203d838(arg0);
-    M2C_FIELD(arg0, M2C_UNK (**)(void *), 0x164)(arg0);
+    M2C_FIELD(arg0, M2C_UNK(**)(void *), 0x164)(arg0);
     func_0203d758(&data_020fdda0, arg0);
     if (data_020fd510 != 0) {
         func_0203d758(data_020fd510 + 0x4E0, arg0);

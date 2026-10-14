@@ -8,8 +8,8 @@ extern void *data_020f96b0;
 void func_020343f4(void) {
     s32 temp_r3;
 
-    *(s32 *)0x04000448 = 1;
-    temp_r3 = M2C_FIELD(data_020f96b0, s32 *, 0x7C);
+    *(s32 *) 0x04000448 = 1;
+    temp_r3             = M2C_FIELD(data_020f96b0, s32 *, 0x7C);
     if (temp_r3 != 0) {
         if (temp_r3 & 1) {
             data_020f96ac = 0;

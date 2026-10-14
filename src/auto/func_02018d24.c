@@ -8,10 +8,10 @@ void func_02018d24(s32 arg0) {
     s32 temp_r1;
     s32 temp_r4;
 
-    temp_r4 = ~(1 << arg0);
-    M2C_FIELD(data_020f7994, u16 *, 2) = (u16) (M2C_FIELD(data_020f7994, u16 *, 2) & temp_r4);
-    temp_r1 = arg0 * 0x590;
-    M2C_FIELD(data_020f7994, u16 *, 4) = (u16) (M2C_FIELD(data_020f7994, u16 *, 4) & temp_r4);
+    temp_r4                                            = ~(1 << arg0);
+    M2C_FIELD(data_020f7994, u16 *, 2)                 = (u16) (M2C_FIELD(data_020f7994, u16 *, 2) & temp_r4);
+    temp_r1                                            = arg0 * 0x590;
+    M2C_FIELD(data_020f7994, u16 *, 4)                 = (u16) (M2C_FIELD(data_020f7994, u16 *, 4) & temp_r4);
     M2C_FIELD((data_020f7994 + temp_r1), s32 *, 0x590) = 0;
     M2C_FIELD((data_020f7994 + temp_r1), s32 *, 0x594) = 0;
     M2C_FIELD((data_020f7994 + temp_r1), s16 *, 0x598) = 0;

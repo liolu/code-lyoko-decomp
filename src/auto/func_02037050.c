@@ -13,6 +13,6 @@ void func_02037050(void *arg0, M2C_UNK arg1) {
     } else {
         var_r1 = 3;
     }
-    M2C_FIELD(arg0, s16 *, 0xA) = var_r1;
+    M2C_FIELD(arg0, s16 *, 0xA)    = var_r1;
     M2C_FIELD(arg0, M2C_UNK **, 4) = &func_0203852c;
 }

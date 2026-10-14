@@ -10,9 +10,9 @@ void func_020357ac(void *arg0, u32 arg1, s32 arg2) {
     u32 var_r5;
     void *var_r7;
 
-    var_r7 = arg0;
+    var_r7        = arg0;
     data_020fa640 = arg2;
-    var_r5 = 0;
+    var_r5        = 0;
     data_020fa648 = var_r7;
     data_020fa644 = arg1;
     if (arg1 == 0) {
@@ -20,7 +20,7 @@ void func_020357ac(void *arg0, u32 arg1, s32 arg2) {
     }
     do {
         func_0203391c(var_r7);
-        M2C_FIELD(var_r7, s32 *, 0xC) = 0;
+        M2C_FIELD(var_r7, s32 *, 0xC)  = 0;
         M2C_FIELD(var_r7, s32 *, 0x10) = 0;
         M2C_FIELD(var_r7, s32 *, 0x14) = 0;
         M2C_FIELD(var_r7, s32 *, 0x18) = 0;

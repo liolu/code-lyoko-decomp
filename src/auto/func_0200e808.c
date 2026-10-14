@@ -6,7 +6,7 @@ M2C_UNK func_0200bce4(void *, M2C_UNK, M2C_UNK);    /* extern */
 void func_0200e808(void *arg0) {
     func_0200bce4(arg0, 0, 0x5C);
     M2C_FIELD(arg0, s32 *, 0x10) = 0;
-    M2C_FIELD(arg0, s32 *, 0xC) = (s32) M2C_FIELD(arg0, s32 *, 0x10);
+    M2C_FIELD(arg0, s32 *, 0xC)  = (s32) M2C_FIELD(arg0, s32 *, 0x10);
     M2C_FIELD(arg0, s32 *, 0x18) = 0;
     M2C_FIELD(arg0, s32 *, 0x14) = (s32) M2C_FIELD(arg0, s32 *, 0x18);
 }

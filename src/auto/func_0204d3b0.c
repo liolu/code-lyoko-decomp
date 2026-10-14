@@ -20,7 +20,7 @@ s32 func_0204d3b0(M2C_UNK arg0, s32 arg1, s32 arg2, s32 arg3) {
     if (((s32) data_020fe380 >= (s32) data_020fe374) && ((s32) data_020fe380 < (s32) data_020fe384)) {
         temp_r3 = data_020fe380 - data_020fe374;
         temp_r0 = 0x400 - temp_r3;
-        var_r4 = var_r6;
+        var_r4  = var_r6;
         if (var_r6 > temp_r0) {
             var_r4 = temp_r0;
         }

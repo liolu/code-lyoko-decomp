@@ -9,7 +9,7 @@ extern M2C_UNK func_02039024;
 extern M2C_UNK func_020390b4;
 
 void func_02039168(s32 arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4) {
-    M2C_FIELD(&data_020fa670, s32 *, 0xC) = arg0;
+    M2C_FIELD(&data_020fa670, s32 *, 0xC)  = arg0;
     M2C_FIELD(&data_020fa670, s32 *, 0x10) = arg1;
     M2C_FIELD(&data_020fa670, s32 *, 0x14) = arg2;
     M2C_FIELD(&data_020fa670, s32 *, 0x18) = arg3;

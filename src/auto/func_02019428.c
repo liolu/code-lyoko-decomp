@@ -29,10 +29,10 @@ void func_02019428(s32 arg0, s32 arg1, s16 arg2) {
     }
     M2C_FIELD(temp_r1, u8 *, 0x58F) = 0U;
 block_4:
-    M2C_FIELD(temp_r1, u8 *, 0x58E) = (u8) M2C_FIELD(data_020f7990, u8 *, 7);
+    M2C_FIELD(temp_r1, u8 *, 0x58E)  = (u8) M2C_FIELD(data_020f7990, u8 *, 7);
     M2C_FIELD(temp_r1, s16 *, 0x58A) = 0x1771;
     M2C_FIELD(temp_r1, s32 *, 0x4B8) = (s32) M2C_FIELD(data_020f7990, s32 *, 0);
-    M2C_FIELD(temp_r1, s8 *, 0x4B5) = (s8) ((u32) (M2C_FIELD(data_020f7990, u8 *, 4) << 0x18) >> 0x1A);
+    M2C_FIELD(temp_r1, s8 *, 0x4B5)  = (s8) ((u32) (M2C_FIELD(data_020f7990, u8 *, 4) << 0x18) >> 0x1A);
     M2C_FIELD(temp_r1, s16 *, 0x58C) = arg2;
     func_020199b4(temp_r1 + 0x4C0, M2C_FIELD(temp_r1, s32 *, 0x4B8));
     if (((u32) (M2C_FIELD(data_020f7990, u8 *, 4) << 0x1E) >> 0x1E) == 2) {

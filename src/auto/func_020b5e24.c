@@ -1,7 +1,7 @@
 #include "m2c.h"
 
 void func_020b5e24(void *arg0) {
-    M2C_FIELD(arg0, s32 *, 0) = 0;
+    M2C_FIELD(arg0, s32 *, 0)    = 0;
     M2C_FIELD(arg0, s32 *, 0xB8) = 0;
     M2C_FIELD(arg0, s32 *, 0xBC) = 0;
     M2C_FIELD(arg0, s32 *, 0xC0) = 0;

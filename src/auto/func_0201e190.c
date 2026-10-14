@@ -20,7 +20,7 @@ void func_0201e190(void *arg0) {
     if (func_02014f4c(&func_0201e090, arg0, 0, 1, 0) == 2) {
         return;
     }
-    temp_r2 = M2C_FIELD(data_020f7b4c, M2C_UNK (**)(M2C_UNK, M2C_UNK), 0);
+    temp_r2 = M2C_FIELD(data_020f7b4c, M2C_UNK(**)(M2C_UNK, M2C_UNK), 0);
     if (temp_r2 == NULL) {
         return;
     }

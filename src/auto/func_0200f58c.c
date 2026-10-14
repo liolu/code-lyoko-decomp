@@ -7,15 +7,15 @@ extern s32 data_020f645c;
 
 s32 func_0200f58c(s32 arg0, s32 arg1) {
     switch (arg1) {                                 /* irregular */
-    case 9:
-        func_02012670((u16) data_020f645c);
-        return 0;
-    case 10:
-        func_02012650((u16) data_020f645c);
-        return 0;
-    case 1:
-        return 4;
-    default:
-        return 8;
+        case 9:
+            func_02012670((u16) data_020f645c);
+            return 0;
+        case 10:
+            func_02012650((u16) data_020f645c);
+            return 0;
+        case 1:
+            return 4;
+        default:
+            return 8;
     }
 }

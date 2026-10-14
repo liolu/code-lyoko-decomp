@@ -12,6 +12,6 @@ void func_02018e80(s32 arg0) {
         data_020f798c((arg0 * 0x590) + (s32) (data_020f7994 + 0x4D4));
     }
     M2C_FIELD(data_020f7994, s16 *, 0xC) = 0x16;
-    M2C_FIELD(data_020f7994, u16 *, 6) = (u16) (1 << arg0);
-    M2C_FIELD(data_020f7994, s16 *, 8) = 0x321;
+    M2C_FIELD(data_020f7994, u16 *, 6)   = (u16) (1 << arg0);
+    M2C_FIELD(data_020f7994, s16 *, 8)   = 0x321;
 }

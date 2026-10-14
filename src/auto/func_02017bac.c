@@ -6,7 +6,7 @@ extern void *data_020f7b0c;
 void func_02017bac(s32 arg0, s32 arg1, s32 arg2) {
     M2C_UNK (*temp_r3)(arg0, arg1, arg2);
 
-    temp_r3 = M2C_FIELD(data_020f7b0c, M2C_UNK (**)(), 0x14E4);
+    temp_r3 = M2C_FIELD(data_020f7b0c, M2C_UNK(**)(), 0x14E4);
     if (temp_r3 == NULL) {
         return;
     }

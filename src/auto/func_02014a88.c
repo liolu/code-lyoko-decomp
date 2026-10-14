@@ -7,5 +7,5 @@ u16 func_02014a88(void) {
     if (func_0201439c() != 0) {
         return 0x8000U;
     }
-    return *(u16 *)0x027FFCFA;
+    return *(u16 *) 0x027FFCFA;
 }

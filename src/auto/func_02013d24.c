@@ -13,7 +13,7 @@ void func_02013d24(s32 arg0, s32 arg1) {
         if (data_020f6e60 != 0) {
             return;
         }
-        var_r0 = 1;
+        var_r0        = 1;
         data_020f6e60 = 1;
         if (data_020f6e64 != NULL) {
             var_r0 = data_020f6e64();

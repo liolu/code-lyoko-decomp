@@ -10,7 +10,7 @@ s32 func_0203f4b0(void) {
     s32 var_r5;
 
     temp_r0 = func_0203f840();
-    var_r5 = 0;
+    var_r5  = 0;
     if (temp_r0 != NULL) {
         var_r4 = 1;
         if ((*temp_r0 != 3) && (func_02049798(temp_r0, sp0) == 0)) {

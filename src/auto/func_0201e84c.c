@@ -11,7 +11,7 @@ void func_0201e84c(s32 arg0) {
     M2C_UNK var_r1;
     s32 temp_r4;
 
-    temp_r4 = func_0200b040();
+    temp_r4       = func_0200b040();
     data_020f7b64 = arg0;
     if (func_0201eb5c() == 0) {
         if (arg0 != 0) {

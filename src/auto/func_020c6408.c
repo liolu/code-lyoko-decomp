@@ -14,10 +14,10 @@ void func_020c6408(M2C_UNK arg0) {
     if (data_0210ad68 != 0) {
         return;
     }
-    M2C_FIELD(*data_020ff650, M2C_UNK (**)(void **, M2C_UNK *, s32), 8)(data_020ff650, &data_020f1d4c, 0x9EB10);
+    M2C_FIELD(*data_020ff650, M2C_UNK(**)(void **, M2C_UNK *, s32), 8)(data_020ff650, &data_020f1d4c, 0x9EB10);
     func_0204df88(sp0, &data_020f1d62);
     func_020c59b0(arg0, 0, sp0);
-    M2C_FIELD(*data_020ff650, M2C_UNK (**)(void **, M2C_UNK), 0x68)(data_020ff650, 0x60);
-    M2C_FIELD(*data_020ff650, M2C_UNK (**)(void **, M2C_UNK), 0x60)(data_020ff650, 0x7F);
+    M2C_FIELD(*data_020ff650, M2C_UNK(**)(void **, M2C_UNK), 0x68)(data_020ff650, 0x60);
+    M2C_FIELD(*data_020ff650, M2C_UNK(**)(void **, M2C_UNK), 0x60)(data_020ff650, 0x7F);
     func_0204e004(sp0);
 }

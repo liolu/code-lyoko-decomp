@@ -13,7 +13,7 @@ s32 func_0201a870(void) {
     s32 temp_r4;
     s32 var_r5;
 
-    var_r5 = 1;
+    var_r5  = 1;
     temp_r4 = func_0200b040();
     if (M2C_FIELD(data_020f7b08, u16 *, 0x526) == 0) {
         M2C_FIELD(data_020f7b08, s32 *, 0x5E4) = 0;

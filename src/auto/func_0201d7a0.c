@@ -17,7 +17,7 @@ void func_0201d7a0(void *arg0, M2C_UNK arg1) {
     }
     data_020f7b44 = 1;
     func_0200bce4(arg0, 0, 0x5F20);
-    data_020f7b48 = arg0;
+    data_020f7b48                  = arg0;
     M2C_FIELD(arg0, s16 *, 0x5F0E) = 0;
     func_0200bd78(arg1, data_020f7b48 + 0x5C4, 0x16);
     func_0201a410(data_020f7b48 + 0x5E8);

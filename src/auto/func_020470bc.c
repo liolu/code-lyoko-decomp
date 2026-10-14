@@ -16,16 +16,16 @@ extern M2C_UNK data_020ed808;
 void *func_020470bc(void *arg0, s32 arg1) {
     void *temp_r4;
 
-    temp_r4 = func_02043810(M2C_FIELD(arg0, volatile s32 *, 0));
+    temp_r4                                  = func_02043810(M2C_FIELD(arg0, volatile s32 *, 0));
     M2C_FIELD(temp_r4, volatile s32 *, 0x20) = func_02047478(arg0);
     if (M2C_FIELD(temp_r4, volatile s32 *, 0x20) == 0) {
         M2C_FIELD(temp_r4, volatile s32 *, 0x20) = arg1;
     }
     M2C_FIELD(temp_r4, volatile s32 *, 0x3C) = func_02047508(arg0);
-    M2C_FIELD(temp_r4, volatile s8 *, 0x44) = func_0204763c(arg0);
-    M2C_FIELD(temp_r4, volatile s8 *, 0x45) = func_0204763c(arg0);
-    M2C_FIELD(temp_r4, volatile s8 *, 0x46) = func_0204763c(arg0);
-    M2C_FIELD(temp_r4, volatile s8 *, 0x47) = func_0204763c(arg0);
+    M2C_FIELD(temp_r4, volatile s8 *, 0x44)  = func_0204763c(arg0);
+    M2C_FIELD(temp_r4, volatile s8 *, 0x45)  = func_0204763c(arg0);
+    M2C_FIELD(temp_r4, volatile s8 *, 0x46)  = func_0204763c(arg0);
+    M2C_FIELD(temp_r4, volatile s8 *, 0x47)  = func_0204763c(arg0);
     func_02047358(arg0, temp_r4);
     func_020473a0(arg0, temp_r4);
     func_020472c4(arg0, temp_r4);

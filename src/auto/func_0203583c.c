@@ -19,7 +19,7 @@ void func_0203583c(s32 arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4, s32 arg5, s
     if (arg3 != -1) {
         func_02033914(temp_r4, 2, arg3);
     }
-    M2C_FIELD(temp_r4, s32 *, 0xC) = arg4;
+    M2C_FIELD(temp_r4, s32 *, 0xC)  = arg4;
     M2C_FIELD(temp_r4, s32 *, 0x10) = arg5;
     M2C_FIELD(temp_r4, s32 *, 0x14) = arg6;
     M2C_FIELD(temp_r4, s32 *, 0x18) = arg7;

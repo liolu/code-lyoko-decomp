@@ -16,7 +16,8 @@ void func_0205e06c(void *arg0) {
     }
     temp_r5 = M2C_FIELD(arg0, volatile s32 *, 0x28);
     temp_r0 = func_020aff7c(temp_r5);
-    M2C_FIELD(arg0, void **, 0x1C) = (void *) (temp_r0 + M2C_FIELD((temp_r0 + M2C_FIELD(temp_r0, volatile u16 *, 0xE)), s32 *, 0xC));
+    M2C_FIELD(arg0, void **, 0x1C) =
+        (void *) (temp_r0 + M2C_FIELD((temp_r0 + M2C_FIELD(temp_r0, volatile u16 *, 0xE)), s32 *, 0xC));
     func_0205d9f8(arg0, temp_r5);
     var_r6 = 0;
     if ((s32) M2C_FIELD(M2C_FIELD(arg0, void **, 0x1C), u8 *, 0x18) <= 0) {

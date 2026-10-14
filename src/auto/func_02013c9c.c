@@ -11,7 +11,7 @@ void func_02013c9c(void) {
     s32 var_r5;
 
     var_r5 = 1;
-    if (((s32) (*(u16 *)0x027FFFA8 & 0x8000) >> 0xF) != 0) {
+    if (((s32) (*(u16 *) 0x027FFFA8 & 0x8000) >> 0xF) != 0) {
         var_r0 = func_020116b8();
         if (var_r0 == 4) {
             do {

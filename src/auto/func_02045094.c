@@ -16,7 +16,8 @@ void func_02045094(void *arg0) {
         func_02043bbc(arg0, 1);
         func_020456e8(arg0);
         temp_r2 = M2C_FIELD(arg0, void **, 0x10);
-        M2C_FIELD(M2C_FIELD(arg0, void **, 0x10), void **, 0x18) = func_020448b8(arg0, M2C_FIELD(temp_r2, void **, 0x18), M2C_FIELD(temp_r2, s32 *, 0x1C), 0);
+        M2C_FIELD(M2C_FIELD(arg0, void **, 0x10), void **, 0x18) =
+            func_020448b8(arg0, M2C_FIELD(temp_r2, void **, 0x18), M2C_FIELD(temp_r2, s32 *, 0x1C), 0);
         M2C_FIELD(M2C_FIELD(arg0, void **, 0x10), s32 *, 0x1C) = 0;
     }
     func_020452e8(arg0, arg0);

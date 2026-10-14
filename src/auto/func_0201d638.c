@@ -7,7 +7,7 @@ extern s16 data_020f7b44;
 extern void *data_020f7b48;
 
 void func_0201d638(void) {
-    data_020f7b44 = 0;
+    data_020f7b44                           = 0;
     M2C_FIELD(data_020f7b48, s32 *, 0x5F04) = 0;
     func_0201d854();
     func_0201d5a4(0x14, 0);

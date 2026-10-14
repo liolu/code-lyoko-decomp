@@ -14,6 +14,6 @@ void *func_0205be88(void *arg0) {
     func_0205c024(arg0 + 0x2C);
     M2C_FIELD(arg0, M2C_UNK **, 0) = &data_020eddf4;
     M2C_FIELD(arg0, M2C_UNK **, 0) = &data_020ede34;
-    data_020f86c4 = 0;
+    data_020f86c4                  = 0;
     return arg0;
 }
