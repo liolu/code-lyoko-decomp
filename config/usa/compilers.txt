@@ -972,3 +972,15 @@ src/donor/func_020e27dc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_02039f5c.c 1.2/sp2p3
 src/auto/func_0203df6c.c 1.2/sp2p3
 src/auto/func_0204ccc4.c 1.2/sp2p3
+src/auto/func_02028a3c.c 1.2/sp3
+src/auto/func_02040cf4.c 1.2/sp3
+src/auto/func_02046d68.c 1.2/sp3 -O2,p
+src/auto/func_02047508.c 1.2/sp3
+src/auto/func_02049798.c 1.2/sp3
+src/auto/func_02065c80.c 1.2/sp3
+src/auto/func_02068c40.c 1.2/sp3
+src/auto/func_02084bf4.c 1.2/sp3
+src/auto/func_02088afc.c 1.2/sp3
+src/auto/func_020aca08.c 1.2/sp3
+src/auto/func_020c371c.c 1.2/sp3
+src/auto/func_020c3acc.c 1.2/sp3
