@@ -8509,3 +8509,15 @@ src/auto/func_020c371c.c:
 src/auto/func_020c3acc.c:
     complete
     .text       start:0x020c3acc end:0x020c3b54
+
+src/auto/func_020425d8.c:
+    complete
+    .text       start:0x020425d8 end:0x020425f4
+
+src/auto/func_020433a0.c:
+    complete
+    .text       start:0x020433a0 end:0x020433ec
+
+src/auto/func_0208ede4.c:
+    complete
+    .text       start:0x0208ede4 end:0x0208edfc
