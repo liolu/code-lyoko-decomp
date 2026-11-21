@@ -1,5 +1,7 @@
 # Code Lyoko decompilation (USA)
 
+> **This game moved to [liolu/All-nds-decomp-games](https://github.com/liolu/All-nds-decomp-games/tree/main/games/C/code-lyoko)** (`games/C/code-lyoko`), with its whole history: every Nintendo DS decompilation in one repository, one game downloadable on its own (`python nds.py get code-lyoko`). This repository is archived; issues and pull requests go there.
+
 <!-- bytematch:start -->
 [![Code](https://bytematch.dev/liolu/code-lyoko-decomp.svg?label=Code&measure=matched_code_percent)](https://bytematch.dev/liolu/code-lyoko-decomp) [![Data](https://bytematch.dev/liolu/code-lyoko-decomp.svg?label=Data&measure=matched_data_percent)](https://bytematch.dev/liolu/code-lyoko-decomp) [![Functions](https://bytematch.dev/liolu/code-lyoko-decomp.svg?label=Functions&measure=matched_functions)](https://bytematch.dev/liolu/code-lyoko-decomp)
 <!-- bytematch:end -->
